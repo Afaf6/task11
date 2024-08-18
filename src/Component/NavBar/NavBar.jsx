@@ -3,7 +3,7 @@ import Thum1 from "../../../public/Images/image-product-1-thumbnail.jpg";
 import Thum2 from "../../../public/Images/image-product-2-thumbnail.jpg";
 import Thum3 from "../../../public/Images/image-product-3-thumbnail.jpg";
 import Thum4 from "../../../public/Images/image-product-4-thumbnail.jpg";
-import './NavBar.css'
+import "./NavBar.css"
 function NavBar() {
     return(
         <>
