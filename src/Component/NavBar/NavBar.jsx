@@ -3,8 +3,8 @@ import Thum1 from "../../../public/Images/image-product-1-thumbnail.jpg";
 import Thum2 from "../../../public/Images/image-product-2-thumbnail.jpg";
 import Thum3 from "../../../public/Images/image-product-3-thumbnail.jpg";
 import Thum4 from "../../../public/Images/image-product-4-thumbnail.jpg";
-import './Navbar.css'
-function Navbar() {
+import './NavBar.css'
+function NavBar() {
     return(
         <>
       <nav id="stylenav">
@@ -42,4 +42,4 @@ function Navbar() {
     </>
     );
 }
-export default Navbar;
+export default NavBar;
