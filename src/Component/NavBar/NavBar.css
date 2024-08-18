@@ -1,0 +1,29 @@
+#stylenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 1rem;
+    width:fit-content;
+    float: none;
+}
+#stylenav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: larger;
+    align-items:right;
+    text-align:right;
+}
+#stylenav > button :hover{
+    background-color: rgba(255, 255, 255, 0.17);
+    border-radius: solid 2px rgb(211, 113, 56);
+}
+@media screen and (max-width) {
+    #stylenav {
+        width: 200px; float: left;
+    }
+    
+}

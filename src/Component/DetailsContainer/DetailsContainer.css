@@ -1,0 +1,79 @@
+#DetailsDiv{
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 100%;
+    
+}
+#Pricediv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+#boxprice{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+#Header{
+    margin: 0;
+    font-size: 35px;
+    color: hsl(212, 21%, 14%);
+}
+#PriceLab{
+    color: black;
+    font-size: 30px;
+    font-weight:bold;
+    
+}
+#DiscPrice{
+    font-size: 15px ;
+    color: hsl(228, 12%, 48%);
+    display:flex;
+}
+#Description{
+    margin: 0;
+    width: 25rem;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5rem;
+}
+#NameProduct{
+    letter-spacing: 2px;
+    color: hsl(228, 12%, 48%);
+    width: 100%;
+}
+#AddBtn{
+    background-color: hsl(26, 100%, 55%);
+    color: black;
+    border-radius: 5px;
+    border: solid 1px black;
+    height: 40px;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    width: 20rem;
+}
+#btncart{
+display:flex;
+justify-content: space-between;
+gap: 2rem;
+}
+@media (max-width : 700px){
+    #DetailsDiv{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-content: center;
+    }
+}
